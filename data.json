@@ -1,0 +1,66 @@
+{
+    "organization_attributes": {
+        "org1": {
+            "admin_access": {
+                "org_admin": true
+            },
+            "read_access": {
+                "org_reader": true
+            },
+            "environment_attributes": {
+                "dev": {
+                    "admin_access": {
+                        "dev_admin": true
+                    },
+                    "read_access": {
+                        "dev_reader": true
+                    },
+                    "flag_attributes": {
+                        "flag1": {
+                            "admin_access": {
+                                "flag1_admin": true
+                            },
+                            "read_access": {
+                                "flag1_reader": true
+                            }
+                        },
+                        "flag2": {
+                            "admin_access": {
+                                "flag2_admin": true
+                            },
+                            "read_access": {
+                                "flag2_reader": true
+                            }
+                        }
+                    }
+                },
+                "stage": {
+                    "admin_access": {
+                        "stage_admin": true
+                    },
+                    "read_access": {
+                        "stage_reader": true
+                    },
+                    "flag_attributes": {
+                        "flag1": {
+                            "admin_access": {
+                                "flag1_admin": true
+                            },
+                            "read_access": {
+                                "flag1_reader": true
+                            }
+                        },
+                        "flag2": {
+                            "admin_access": {
+                                "flag3_admin": true
+                            },
+                            "read_access": {
+                                "flag3_reader": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
