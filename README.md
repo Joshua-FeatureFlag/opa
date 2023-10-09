@@ -16,5 +16,7 @@ INPUT
 ```
 
 Copy the `data.json` into the DATA section
+
 Copy the `permission_engine.rego` into the policy section
+
 Change the INPUT as desired for testing.
